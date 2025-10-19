@@ -1,43 +1,93 @@
 from modules.youtube.templates import Parser, Searcher
 from concurrent.futures import ThreadPoolExecutor
 import asyncio
-from core.logging import YoutubeLogger
+from core.logging import AsyncLogger
+from core.settings import MAX_WORKERS, MAX_CYCLES
 from modules.youtube.parsers import VideoParser, ChannelParser
 from modules.youtube.search import QuickSearch, DetailedSearch
+from modules.youtube.models import SearchTask
+from modules.youtube.queue import QuickSearchQueue, Queue
 
 class YouTubeService:
-    def __init__(self, quick_searcher:Searcher, detailed_searcher:Searcher,  video_parser:Parser, channel_parser:Parser, debug=False, logger=None):
-        self.logger = logger
+    def __init__(self,qs_queue:Queue, quick_searcher:Searcher, detailed_searcher:Searcher, debug=False, logger=None):
         self.quick_searcher = quick_searcher
         self.detailed_searcher = detailed_searcher
-        self.channel_parser = channel_parser
-        self.video_parser = video_parser
         self.debug = debug
+        self.logger = logger
+        self.qs_queue = qs_queue
+        self.running = True
+        self.thread_pool = ThreadPoolExecutor(MAX_WORKERS)
         
         if self.logger is None and self.debug is True:
                 print('[Error]: YouTubeService did not recieve a logger')
                 raise ValueError
+    
+    
+    async def search(self, term, client_id):
+        task = SearchTask(client_id=client_id, term=term)
+        await self.qs_queue.enqueue(task)
+            
+    async def start(self):
+        ''' Continues to gather tasks from queue and executes them in their own thread '''
+        loop = asyncio.get_running_loop()
+        while self.running:
+            task:SearchTask = await self.qs_queue.get_task()
+            
+            try:
+                executed_task:SearchTask = await loop.run_in_executor(self.thread_pool, self.quick_searcher.search, task)
+            except Exception as e:
+                print(e)
+                continue
+            
+            yield executed_task
+            
+            if executed_task.cycle != MAX_CYCLES:
+                #need to add function to check if client still active
+                asyncio.create_task(self.qs_queue.enqueue(executed_task))
+                
+if __name__ == "__main__":
+    import random
+    logger = AsyncLogger()
+    channel_parser = ChannelParser()
+    video_parser = VideoParser()
+    quick_searcher = QuickSearch(channel_parser, video_parser)
+    queue = QuickSearchQueue(debug=True, logger=logger)
+    detail_searcher = DetailedSearch(video_parser)
+    youtube_service = YouTubeService(qs_queue=queue, quick_searcher=quick_searcher, detailed_searcher=video_parser)
+    
+    async def aprint(*args, **kwargs):
+        await asyncio.to_thread(print, *args, **kwargs)
+    
+    async def print_task():
+        search_task:SearchTask
+        async for search_task in youtube_service.start():
+            await aprint(search_task)
+            
+    async def queue_task():
+        while True:
+            id = random.randint(1,100)
+            await asyncio.sleep(random.randint(1,3))
+            await youtube_service.search(client_id='Tester', term=f'carti{id}')
+            
+    async def main():
+        await asyncio.gather(print_task(), queue_task())
+    
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("Shutting Down")
+        
+    
+                
+            
+            
+            
             
         
-    async def quick_search_stream(self, term):
-        ''' Concurently searches YouTube for the term to stream back to Client '''
-        loop = asyncio.get_event_loop()
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            tasks = [loop.run_in_executor(pool, self.quick_searcher.search, term) for x in range(2)]
-            for task in asyncio.as_completed(tasks):
-                result = await task
-                self.logger.log(f'Streaming {result}')
-                yield result
             
-    async def detailed_search(self, video_id):
-        ''' Concurently searches a video to retrieve its full details '''
-        loop = asyncio.get_event_loop()
-        with ThreadPoolExecutor(max_workers=1) as pool:
-            tasks = loop.run_in_executor(pool, self.detailed_searcher.search, video_id)
-            for task in asyncio.all_tasks(tasks):
-                result = await task
-                return result
-        
+    
+    
+            
         
 
 

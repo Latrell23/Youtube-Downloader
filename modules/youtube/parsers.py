@@ -59,9 +59,9 @@ class VideoParser(Parser):
                            view_count=view_count,
                            upload_date=upload_date,
                            full_detailed=full)
-        
+                
         if self.debug:
-            self.logger.log(f'Parsed Video (Full) {title} with id of {id}')
+            self.logger.log(f'Parsed Video ({"Full" if full else "Quick"}) {title} with id of {id}')
             
         return video
         

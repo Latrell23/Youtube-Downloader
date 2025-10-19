@@ -1,5 +1,7 @@
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional, List, Dict, Union
+
+
 
 class ChannelModel(BaseModel):
     id: str
@@ -20,5 +22,17 @@ class VideoModel(BaseModel):
  
 class SearchResults(BaseModel):
     query: str
-    videos: List[VideoModel]
-    channels: List[ChannelModel]
+    videos: List[VideoModel] = []
+    channels: List[ChannelModel] = []
+
+class SearchTask(BaseModel):
+    client_id: str
+    term: str
+    results: Dict[str, Dict[str, Union[ChannelModel, VideoModel]]] = {"videos": {} #{video_id: {VideoModel}}
+                                                                      ,"channels": {}} #{channel_id: {ChannelModel}}
+    cycle: int = 0
+    
+    
+    
+    
+    

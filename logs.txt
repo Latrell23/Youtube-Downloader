@@ -1,0 +1,326 @@
+2025-10-19T04:24:58.512320 - Task carti14 has been enqueued - 1 of 1.
+2025-10-19T04:24:58.512476 - Task carti14 is running.
+2025-10-19T04:24:59.517250 - Task carti47 has been enqueued - 1 of 1.
+2025-10-19T04:25:00.267456 - Task carti47 is running.
+2025-10-19T04:25:00.267531 - Task carti14 has been enqueued - 1 of 1.
+2025-10-19T04:25:01.546002 - Task carti14 is running.
+2025-10-19T04:25:01.546050 - Task carti47 has been enqueued - 1 of 1.
+2025-10-19T04:25:02.523253 - Task carti28 has been enqueued - 1 of 2.
+2025-10-19T04:25:02.945225 - Task carti47 is running.
+2025-10-19T04:25:02.945274 - Task carti14 has been enqueued - 1 of 2.
+2025-10-19T04:25:04.299853 - Task carti28 is running.
+2025-10-19T04:25:04.299895 - Task carti47 has been enqueued - 1 of 2.
+2025-10-19T04:25:05.529381 - Task carti45 has been enqueued - 1 of 3.
+2025-10-19T04:25:05.587500 - Task carti14 is running.
+2025-10-19T04:25:05.587557 - Task carti28 has been enqueued - 1 of 3.
+2025-10-19T04:25:07.031744 - Task carti47 is running.
+2025-10-19T04:25:08.476481 - Task carti45 is running.
+2025-10-19T04:25:08.541042 - Task carti19 has been enqueued - 1 of 2.
+2025-10-19T04:25:09.424968 - Task carti28 is running.
+2025-10-19T04:25:09.425027 - Task carti45 has been enqueued - 1 of 2.
+2025-10-19T04:25:09.541855 - Task carti12 has been enqueued - 1 of 3.
+2025-10-19T04:25:10.729987 - Task carti19 is running.
+2025-10-19T04:25:10.730035 - Task carti28 has been enqueued - 1 of 3.
+2025-10-19T04:25:11.549571 - Task carti59 has been enqueued - 1 of 4.
+2025-10-19T04:25:12.560231 - Task carti3 has been enqueued - 1 of 5.
+2025-10-19T04:25:13.106441 - Task carti45 is running.
+2025-10-19T04:25:13.106483 - Task carti19 has been enqueued - 1 of 5.
+2025-10-19T04:25:13.573018 - Task carti23 has been enqueued - 1 of 6.
+2025-10-19T04:25:14.370884 - Task carti12 is running.
+2025-10-19T04:25:14.370933 - Task carti45 has been enqueued - 1 of 6.
+2025-10-19T04:25:14.580367 - Task carti73 has been enqueued - 1 of 7.
+2025-10-19T04:25:15.737010 - Task carti28 is running.
+2025-10-19T04:25:15.737087 - Task carti12 has been enqueued - 1 of 7.
+2025-10-19T04:25:16.593306 - Task carti49 has been enqueued - 1 of 8.
+2025-10-19T04:25:16.985982 - Task carti59 is running.
+2025-10-19T04:25:18.228231 - Task carti3 is running.
+2025-10-19T04:25:18.228279 - Task carti59 has been enqueued - 1 of 7.
+2025-10-19T04:25:18.597660 - Task carti92 has been enqueued - 1 of 8.
+2025-10-19T04:25:19.580145 - Task carti19 is running.
+2025-10-19T04:25:19.580188 - Task carti3 has been enqueued - 1 of 8.
+2025-10-19T04:25:20.722832 - Task carti23 is running.
+2025-10-19T04:25:20.722898 - Task carti19 has been enqueued - 1 of 8.
+2025-10-19T04:25:21.607469 - Task carti1 has been enqueued - 1 of 9.
+2025-10-19T04:25:21.765286 - Task carti45 is running.
+2025-10-19T04:25:21.765339 - Task carti23 has been enqueued - 1 of 9.
+2025-10-19T04:25:23.100625 - Task carti73 is running.
+2025-10-19T04:25:23.616725 - Task carti68 has been enqueued - 1 of 9.
+2025-10-19T04:25:23.990966 - Task carti12 is running.
+2025-10-19T04:25:23.991022 - Task carti73 has been enqueued - 1 of 9.
+2025-10-19T04:25:25.700564 - Task carti49 is running.
+2025-10-19T04:25:25.700624 - Task carti12 has been enqueued - 1 of 9.
+2025-10-19T04:25:26.618965 - Task carti39 has been enqueued - 1 of 10.
+2025-10-19T04:25:26.717984 - Task carti59 is running.
+2025-10-19T04:25:26.718038 - Task carti49 has been enqueued - 1 of 10.
+2025-10-19T04:25:28.272889 - Task carti92 is running.
+2025-10-19T04:25:28.272944 - Task carti59 has been enqueued - 1 of 10.
+2025-10-19T04:25:29.280084 - Task carti3 is running.
+2025-10-19T04:25:29.280144 - Task carti92 has been enqueued - 1 of 10.
+2025-10-19T04:25:29.629192 - Task carti77 has been enqueued - 1 of 11.
+2025-10-19T04:25:30.378772 - Task carti19 is running.
+2025-10-19T04:25:30.378827 - Task carti3 has been enqueued - 1 of 11.
+2025-10-19T04:25:31.638034 - Task carti1 is running.
+2025-10-19T04:25:32.635479 - Task carti30 has been enqueued - 1 of 11.
+2025-10-19T04:25:32.842898 - Task carti23 is running.
+2025-10-19T04:25:32.842953 - Task carti1 has been enqueued - 1 of 11.
+2025-10-19T04:25:33.899149 - Task carti68 is running.
+2025-10-19T04:25:33.899208 - Task carti23 has been enqueued - 1 of 11.
+2025-10-19T04:25:35.234655 - Task carti73 is running.
+2025-10-19T04:25:35.234710 - Task carti68 has been enqueued - 1 of 11.
+2025-10-19T04:25:35.647670 - Task carti69 has been enqueued - 1 of 12.
+2025-10-19T04:25:36.410560 - Task carti12 is running.
+2025-10-19T04:25:36.410611 - Task carti73 has been enqueued - 1 of 12.
+2025-10-19T04:25:37.572797 - Task carti39 is running.
+2025-10-19T04:25:37.661316 - Task carti62 has been enqueued - 1 of 12.
+2025-10-19T04:25:39.076884 - Task carti49 is running.
+2025-10-19T04:25:39.077048 - Task carti39 has been enqueued - 1 of 12.
+2025-10-19T04:25:40.550778 - Task carti59 is running.
+2025-10-19T04:25:40.550833 - Task carti49 has been enqueued - 1 of 12.
+2025-10-19T04:25:40.664955 - Task carti37 has been enqueued - 1 of 13.
+2025-10-19T04:25:41.678093 - Task carti22 has been enqueued - 1 of 14.
+2025-10-19T04:25:41.866062 - Task carti92 is running.
+2025-10-19T04:25:42.810934 - Task carti77 is running.
+2025-10-19T04:25:42.810988 - Task carti92 has been enqueued - 1 of 13.
+2025-10-19T04:25:44.013255 - Task carti3 is running.
+2025-10-19T04:25:44.013322 - Task carti77 has been enqueued - 1 of 13.
+2025-10-19T04:25:44.680890 - Task carti77 has been enqueued - 1 of 14.
+2025-10-19T04:25:45.379754 - Task carti30 is running.
+2025-10-19T04:25:46.694019 - Task carti5 has been enqueued - 1 of 14.
+2025-10-19T04:25:46.807491 - Task carti1 is running.
+2025-10-19T04:25:46.807550 - Task carti30 has been enqueued - 1 of 14.
+2025-10-19T04:25:47.707298 - Task carti40 has been enqueued - 1 of 15.
+2025-10-19T04:25:48.150421 - Task carti23 is running.
+2025-10-19T04:25:48.150488 - Task carti1 has been enqueued - 1 of 15.
+2025-10-19T04:25:48.718956 - Task carti15 has been enqueued - 1 of 16.
+2025-10-19T04:25:49.149934 - Task carti68 is running.
+2025-10-19T04:25:49.731740 - Task carti25 has been enqueued - 1 of 16.
+2025-10-19T04:25:50.111611 - Task carti69 is running.
+2025-10-19T04:25:50.111656 - Task carti68 has been enqueued - 1 of 16.
+2025-10-19T04:25:50.747121 - Task carti13 has been enqueued - 1 of 17.
+2025-10-19T04:25:51.137175 - Task carti73 is running.
+2025-10-19T04:25:51.137231 - Task carti69 has been enqueued - 1 of 17.
+2025-10-19T04:25:52.299285 - Task carti62 is running.
+2025-10-19T04:25:52.758040 - Task carti79 has been enqueued - 1 of 17.
+2025-10-19T04:25:53.439802 - Task carti39 is running.
+2025-10-19T04:25:53.439856 - Task carti62 has been enqueued - 1 of 17.
+2025-10-19T04:25:54.763102 - Task carti26 has been enqueued - 1 of 18.
+2025-10-19T04:25:54.827886 - Task carti49 is running.
+2025-10-19T04:25:54.827941 - Task carti39 has been enqueued - 1 of 18.
+2025-10-19T04:25:56.233874 - Task carti37 is running.
+2025-10-19T04:25:57.696020 - Task carti22 is running.
+2025-10-19T04:25:57.696081 - Task carti37 has been enqueued - 1 of 17.
+2025-10-19T04:25:57.771035 - Task carti25 has been enqueued - 1 of 18.
+2025-10-19T04:25:58.698966 - Task carti92 is running.
+2025-10-19T04:25:58.699020 - Task carti22 has been enqueued - 1 of 18.
+2025-10-19T04:25:59.690987 - Task carti77 is running.
+2025-10-19T04:26:00.773837 - Task carti60 has been enqueued - 1 of 18.
+2025-10-19T04:26:01.003643 - Task carti77 is running.
+2025-10-19T04:26:01.003724 - Task carti77 has been enqueued - 1 of 18.
+2025-10-19T04:26:01.787889 - Task carti22 has been enqueued - 1 of 19.
+2025-10-19T04:26:02.262252 - Task carti5 is running.
+2025-10-19T04:26:02.262302 - Task carti77 has been enqueued - 1 of 19.
+2025-10-19T04:26:03.802029 - Task carti92 has been enqueued - 1 of 20.
+2025-10-19T04:26:04.720291 - Task carti30 is running.
+2025-10-19T04:26:04.720350 - Task carti5 has been enqueued - 1 of 20.
+2025-10-19T04:26:05.808209 - Task carti40 is running.
+2025-10-19T04:26:05.808264 - Task carti30 has been enqueued - 1 of 20.
+2025-10-19T04:26:06.803651 - Task carti42 has been enqueued - 1 of 21.
+2025-10-19T04:26:07.201606 - Task carti1 is running.
+2025-10-19T04:26:07.201680 - Task carti40 has been enqueued - 1 of 21.
+2025-10-19T04:26:08.420680 - Task carti15 is running.
+2025-10-19T04:26:08.816405 - Task carti15 has been enqueued - 1 of 21.
+2025-10-19T04:26:09.623170 - Task carti25 is running.
+2025-10-19T04:26:09.623227 - Task carti15 has been enqueued - 1 of 21.
+2025-10-19T04:26:09.829133 - Task carti25 has been enqueued - 1 of 22.
+2025-10-19T04:26:10.844419 - Task carti99 has been enqueued - 1 of 23.
+2025-10-19T04:26:11.758775 - Task carti68 is running.
+2025-10-19T04:26:11.758820 - Task carti25 has been enqueued - 1 of 23.
+2025-10-19T04:26:11.860607 - Task carti82 has been enqueued - 1 of 24.
+2025-10-19T04:26:12.735071 - Task carti13 is running.
+2025-10-19T04:26:14.056076 - Task carti69 is running.
+2025-10-19T04:26:14.056131 - Task carti13 has been enqueued - 1 of 23.
+2025-10-19T04:26:14.864961 - Task carti45 has been enqueued - 1 of 24.
+2025-10-19T04:26:15.313820 - Task carti79 is running.
+2025-10-19T04:26:15.313874 - Task carti69 has been enqueued - 1 of 24.
+2025-10-19T04:26:16.402113 - Task carti62 is running.
+2025-10-19T04:26:16.402166 - Task carti79 has been enqueued - 1 of 24.
+2025-10-19T04:26:16.872920 - Task carti34 has been enqueued - 1 of 25.
+2025-10-19T04:26:17.550142 - Task carti26 is running.
+2025-10-19T04:26:17.550200 - Task carti62 has been enqueued - 1 of 25.
+2025-10-19T04:26:17.885417 - Task carti75 has been enqueued - 1 of 26.
+2025-10-19T04:26:18.808348 - Task carti39 is running.
+2025-10-19T04:26:18.808400 - Task carti26 has been enqueued - 1 of 26.
+2025-10-19T04:26:19.894947 - Task carti89 has been enqueued - 1 of 27.
+2025-10-19T04:26:20.006100 - Task carti37 is running.
+2025-10-19T04:26:21.451249 - Task carti25 is running.
+2025-10-19T04:26:21.451307 - Task carti37 has been enqueued - 1 of 26.
+2025-10-19T04:26:21.907753 - Task carti49 has been enqueued - 1 of 27.
+2025-10-19T04:26:22.866423 - Task carti22 is running.
+2025-10-19T04:26:22.866486 - Task carti25 has been enqueued - 1 of 27.
+2025-10-19T04:26:24.184164 - Task carti60 is running.
+2025-10-19T04:26:24.184221 - Task carti22 has been enqueued - 1 of 27.
+2025-10-19T04:26:24.916442 - Task carti6 has been enqueued - 1 of 28.
+2025-10-19T04:26:25.322030 - Task carti77 is running.
+2025-10-19T04:26:25.322100 - Task carti60 has been enqueued - 1 of 28.
+2025-10-19T04:26:26.264069 - Task carti22 is running.
+2025-10-19T04:26:26.917666 - Task carti65 has been enqueued - 1 of 28.
+2025-10-19T04:26:27.596607 - Task carti77 is running.
+2025-10-19T04:26:27.596664 - Task carti22 has been enqueued - 1 of 28.
+2025-10-19T04:26:28.567276 - Task carti92 is running.
+2025-10-19T04:26:28.567330 - Task carti77 has been enqueued - 1 of 28.
+2025-10-19T04:26:28.922905 - Task carti60 has been enqueued - 1 of 29.
+2025-10-19T04:26:29.607793 - Task carti5 is running.
+2025-10-19T04:26:29.607885 - Task carti92 has been enqueued - 1 of 29.
+2025-10-19T04:26:30.935090 - Task carti87 has been enqueued - 1 of 30.
+2025-10-19T04:26:31.091804 - Task carti30 is running.
+2025-10-19T04:26:31.091858 - Task carti5 has been enqueued - 1 of 30.
+2025-10-19T04:26:32.549841 - Task carti42 is running.
+2025-10-19T04:26:33.689580 - Task carti40 is running.
+2025-10-19T04:26:33.689640 - Task carti42 has been enqueued - 1 of 29.
+2025-10-19T04:26:33.943311 - Task carti66 has been enqueued - 1 of 30.
+2025-10-19T04:26:35.103604 - Task carti15 is running.
+2025-10-19T04:26:35.103662 - Task carti40 has been enqueued - 1 of 30.
+2025-10-19T04:26:35.955507 - Task carti74 has been enqueued - 1 of 31.
+2025-10-19T04:26:36.592501 - Task carti15 is running.
+2025-10-19T04:26:36.592556 - Task carti15 has been enqueued - 1 of 31.
+2025-10-19T04:26:37.789412 - Task carti25 is running.
+2025-10-19T04:26:37.789469 - Task carti15 has been enqueued - 1 of 31.
+2025-10-19T04:26:38.968417 - Task carti26 has been enqueued - 1 of 32.
+2025-10-19T04:26:39.214453 - Task carti99 is running.
+2025-10-19T04:26:39.214507 - Task carti25 has been enqueued - 1 of 32.
+2025-10-19T04:26:40.433227 - Task carti25 is running.
+2025-10-19T04:26:40.433278 - Task carti99 has been enqueued - 1 of 32.
+2025-10-19T04:26:40.982338 - Task carti70 has been enqueued - 1 of 33.
+2025-10-19T04:26:41.846419 - Task carti82 is running.
+2025-10-19T04:26:41.846475 - Task carti25 has been enqueued - 1 of 33.
+2025-10-19T04:26:43.033348 - Task carti13 is running.
+2025-10-19T04:26:43.033401 - Task carti82 has been enqueued - 1 of 33.
+2025-10-19T04:26:43.988849 - Task carti23 has been enqueued - 1 of 34.
+2025-10-19T04:26:44.111608 - Task carti45 is running.
+2025-10-19T04:26:44.111662 - Task carti13 has been enqueued - 1 of 34.
+2025-10-19T04:26:45.371568 - Task carti69 is running.
+2025-10-19T04:26:45.371664 - Task carti45 has been enqueued - 1 of 34.
+2025-10-19T04:26:46.775147 - Task carti79 is running.
+2025-10-19T04:26:46.990198 - Task carti29 has been enqueued - 1 of 34.
+2025-10-19T04:26:47.627105 - Task carti34 is running.
+2025-10-19T04:26:47.627149 - Task carti79 has been enqueued - 1 of 34.
+2025-10-19T04:26:48.005088 - Task carti95 has been enqueued - 1 of 35.
+2025-10-19T04:26:48.965939 - Task carti62 is running.
+2025-10-19T04:26:48.965993 - Task carti34 has been enqueued - 1 of 35.
+2025-10-19T04:26:50.012160 - Task carti14 has been enqueued - 1 of 36.
+2025-10-19T04:26:50.070834 - Task carti75 is running.
+2025-10-19T04:26:51.496833 - Task carti26 is running.
+2025-10-19T04:26:51.496889 - Task carti75 has been enqueued - 1 of 35.
+2025-10-19T04:26:52.024277 - Task carti85 has been enqueued - 1 of 36.
+2025-10-19T04:26:52.915804 - Task carti89 is running.
+2025-10-19T04:26:52.915857 - Task carti26 has been enqueued - 1 of 36.
+2025-10-19T04:26:54.038810 - Task carti8 has been enqueued - 1 of 37.
+2025-10-19T04:26:54.077519 - Task carti37 is running.
+2025-10-19T04:26:54.077574 - Task carti89 has been enqueued - 1 of 37.
+2025-10-19T04:26:55.329988 - Task carti49 is running.
+2025-10-19T04:26:56.050751 - Task carti5 has been enqueued - 1 of 37.
+2025-10-19T04:26:56.715027 - Task carti25 is running.
+2025-10-19T04:26:56.715083 - Task carti49 has been enqueued - 1 of 37.
+2025-10-19T04:26:58.260420 - Task carti22 is running.
+2025-10-19T04:26:58.260464 - Task carti25 has been enqueued - 1 of 37.
+2025-10-19T04:26:59.060550 - Task carti36 has been enqueued - 1 of 38.
+2025-10-19T04:26:59.692410 - Task carti6 is running.
+2025-10-19T04:27:00.920006 - Task carti60 is running.
+2025-10-19T04:27:00.920052 - Task carti6 has been enqueued - 1 of 37.
+2025-10-19T04:27:01.074298 - Task carti56 has been enqueued - 1 of 38.
+2025-10-19T04:27:02.086619 - Task carti86 has been enqueued - 1 of 39.
+2025-10-19T04:27:02.140478 - Task carti65 is running.
+2025-10-19T04:27:02.140525 - Task carti60 has been enqueued - 1 of 39.
+2025-10-19T04:27:03.095107 - Task carti63 has been enqueued - 1 of 40.
+2025-10-19T04:27:03.450474 - Task carti22 is running.
+2025-10-19T04:27:03.450520 - Task carti65 has been enqueued - 1 of 40.
+2025-10-19T04:27:04.097464 - Task carti50 has been enqueued - 1 of 41.
+2025-10-19T04:27:04.806516 - Task carti77 is running.
+2025-10-19T04:27:04.806566 - Task carti22 has been enqueued - 1 of 41.
+2025-10-19T04:27:05.110957 - Task carti32 has been enqueued - 1 of 42.
+2025-10-19T04:27:05.802828 - Task carti60 is running.
+2025-10-19T04:27:07.020975 - Task carti92 is running.
+2025-10-19T04:27:07.021034 - Task carti60 has been enqueued - 1 of 41.
+2025-10-19T04:27:08.120754 - Task carti29 has been enqueued - 1 of 42.
+2025-10-19T04:27:08.342517 - Task carti87 is running.
+2025-10-19T04:27:08.342565 - Task carti92 has been enqueued - 1 of 42.
+2025-10-19T04:27:09.121373 - Task carti8 has been enqueued - 1 of 43.
+2025-10-19T04:27:09.408165 - Task carti5 is running.
+2025-10-19T04:27:09.408211 - Task carti87 has been enqueued - 1 of 43.
+2025-10-19T04:27:10.984218 - Task carti42 is running.
+2025-10-19T04:27:12.035120 - Task carti66 is running.
+2025-10-19T04:27:12.035166 - Task carti42 has been enqueued - 1 of 42.
+2025-10-19T04:27:12.132564 - Task carti82 has been enqueued - 1 of 43.
+2025-10-19T04:27:13.504809 - Task carti40 is running.
+2025-10-19T04:27:13.504856 - Task carti66 has been enqueued - 1 of 43.
+2025-10-19T04:27:15.028471 - Task carti74 is running.
+2025-10-19T04:27:15.140607 - Task carti2 has been enqueued - 1 of 43.
+2025-10-19T04:27:16.133961 - Task carti15 is running.
+2025-10-19T04:27:16.134029 - Task carti74 has been enqueued - 1 of 43.
+2025-10-19T04:27:16.165179 - Task carti64 has been enqueued - 1 of 44.
+2025-10-19T04:27:17.526936 - Task carti15 is running.
+2025-10-19T04:27:17.526985 - Task carti15 has been enqueued - 1 of 44.
+2025-10-19T04:27:18.174049 - Task carti95 has been enqueued - 1 of 45.
+2025-10-19T04:27:18.936069 - Task carti26 is running.
+2025-10-19T04:27:19.184129 - Task carti72 has been enqueued - 1 of 45.
+2025-10-19T04:27:20.184354 - Task carti60 has been enqueued - 1 of 46.
+2025-10-19T04:27:20.210528 - Task carti25 is running.
+2025-10-19T04:27:20.210574 - Task carti26 has been enqueued - 1 of 46.
+2025-10-19T04:27:21.754894 - Task carti99 is running.
+2025-10-19T04:27:21.754952 - Task carti25 has been enqueued - 1 of 46.
+2025-10-19T04:27:22.195730 - Task carti30 has been enqueued - 1 of 47.
+2025-10-19T04:27:23.178345 - Task carti70 is running.
+2025-10-19T04:27:23.178390 - Task carti99 has been enqueued - 1 of 47.
+2025-10-19T04:27:23.219595 - Task carti64 has been enqueued - 1 of 48.
+2025-10-19T04:27:24.232290 - Task carti42 has been enqueued - 1 of 49.
+2025-10-19T04:27:24.316076 - Task carti25 is running.
+2025-10-19T04:27:24.316121 - Task carti70 has been enqueued - 1 of 49.
+2025-10-19T04:27:25.759622 - Task carti82 is running.
+2025-10-19T04:27:26.822075 - Task carti23 is running.
+2025-10-19T04:27:26.822124 - Task carti82 has been enqueued - 1 of 48.
+2025-10-19T04:27:27.236530 - Task carti87 has been enqueued - 1 of 49.
+2025-10-19T04:27:27.790915 - Task carti13 is running.
+2025-10-19T04:27:27.790967 - Task carti23 has been enqueued - 1 of 49.
+2025-10-19T04:27:28.246819 - Task carti99 has been enqueued - 1 of 50.
+2025-10-19T04:27:28.820487 - Task carti45 is running.
+2025-10-19T04:27:29.255462 - Task carti59 has been enqueued - 1 of 50.
+2025-10-19T04:27:30.182011 - Task carti29 is running.
+2025-10-19T04:27:30.182060 - Task carti45 has been enqueued - 1 of 50.
+2025-10-19T04:27:31.223108 - Task carti79 is running.
+2025-10-19T04:27:31.223154 - Task carti29 has been enqueued - 1 of 50.
+2025-10-19T04:27:32.337949 - Task carti95 is running.
+2025-10-19T04:27:32.337999 - Task carti99 has been enqueued - 1 of 50.
+2025-10-19T04:27:33.582914 - Task carti34 is running.
+2025-10-19T04:27:33.582973 - Task carti95 has been enqueued - 1 of 50.
+2025-10-19T04:27:34.948532 - Task carti14 is running.
+2025-10-19T04:27:34.948576 - Task carti34 has been enqueued - 1 of 50.
+2025-10-19T04:27:36.286867 - Task carti75 is running.
+2025-10-19T04:27:36.286914 - Task carti14 has been enqueued - 1 of 50.
+2025-10-19T04:27:37.395553 - Task carti85 is running.
+2025-10-19T04:27:37.395601 - Task carti75 has been enqueued - 1 of 50.
+2025-10-19T04:27:38.900745 - Task carti26 is running.
+2025-10-19T04:27:38.900795 - Task carti85 has been enqueued - 1 of 50.
+2025-10-19T04:27:40.170402 - Task carti8 is running.
+2025-10-19T04:27:40.170447 - Task carti37 has been enqueued - 1 of 50.
+2025-10-19T04:27:41.546408 - Task carti89 is running.
+2025-10-19T04:27:41.546456 - Task carti8 has been enqueued - 1 of 50.
+2025-10-19T04:27:42.787461 - Task carti5 is running.
+2025-10-19T04:27:42.787500 - Task carti89 has been enqueued - 1 of 50.
+2025-10-19T04:27:44.246649 - Task carti49 is running.
+2025-10-19T04:27:44.246732 - Task carti5 has been enqueued - 1 of 50.
+2025-10-19T04:27:45.626223 - Task carti25 is running.
+2025-10-19T04:27:45.626269 - Task carti49 has been enqueued - 1 of 50.
+2025-10-19T04:27:46.916377 - Task carti36 is running.
+2025-10-19T04:27:46.916418 - Task carti17 has been enqueued - 1 of 50.
+2025-10-19T04:27:47.869884 - Task carti6 is running.
+2025-10-19T04:27:47.869937 - Task carti36 has been enqueued - 1 of 50.
+2025-10-19T04:27:49.271475 - Task carti56 is running.
+2025-10-19T04:27:49.271522 - Task carti6 has been enqueued - 1 of 50.
+2025-10-19T04:27:50.550239 - Task carti86 is running.
+2025-10-19T04:27:50.550312 - Task carti56 has been enqueued - 1 of 50.
+2025-10-19T04:27:52.011969 - Task carti60 is running.
+2025-10-19T04:27:52.012016 - Task carti86 has been enqueued - 1 of 50.
+2025-10-19T04:27:53.057505 - Task carti63 is running.
+2025-10-19T04:27:53.057558 - Task carti48 has been enqueued - 1 of 50.
+2025-10-19T04:27:54.163403 - Task carti65 is running.
+2025-10-19T04:27:54.163479 - Task carti63 has been enqueued - 1 of 50.
