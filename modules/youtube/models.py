@@ -30,7 +30,8 @@ class SearchTask(BaseModel):
     term: str
     results: Dict[str, Dict[str, Union[ChannelModel, VideoModel]]] = {"videos": {} #{video_id: {VideoModel}}
                                                                       ,"channels": {}} #{channel_id: {ChannelModel}}
-    cycle: int = 0
+    res_count: int = 0
+    cycle_count: int = 1
     
     
     

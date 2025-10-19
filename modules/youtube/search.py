@@ -19,19 +19,21 @@ class QuickSearch(Searcher):
                 raise ValueError
         
     def search(self, task:SearchTask, max_results=MAX_RESULTS) -> SearchTask:
-        query = f'ytsearch{max_results}:{task.term}'
+        query = f'ytsearch{max_results * task.cycle_count}:{task.term}'
         
         with yt_dlp.YoutubeDL(self.options) as ydl:
             info = ydl.extract_info(query, download=False)
             data = info.get('entries', [])
             
             for entry in data:
-                if entry.get('id') == entry.get('channel_id'):
+                if entry.get('id') == entry.get('channel_id'): #entry == channel
                     channel :ChannelModel = self.channel_parser.parse(entry)
                     channels = task.results.get('channels')
                     
                     if channel.id not in channels:
                         channels[channel.id] = channel
+                        task.res_count += 1
+                    
                 
                 else:
                     
@@ -40,12 +42,13 @@ class QuickSearch(Searcher):
                     
                     if video.id not in videos:
                         videos[video.id] = video
+                        task.res_count += 1
             
             if self.debug:
                 self.logger.log(task.model_dump_json())
                 
-                
-            task.cycle += 1
+            
+            task.cycle_count += 1
             return task
         
                         

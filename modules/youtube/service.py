@@ -2,11 +2,12 @@ from modules.youtube.templates import Parser, Searcher
 from concurrent.futures import ThreadPoolExecutor
 import asyncio
 from core.logging import AsyncLogger
-from core.settings import MAX_WORKERS, MAX_CYCLES,MAX_THREADS
+from core.settings import MAX_WORKERS, RES_COUNT, MAX_THREADS, MAX_CYCLES
 from modules.youtube.parsers import VideoParser, ChannelParser
 from modules.youtube.search import QuickSearch, DetailedSearch
 from modules.youtube.models import SearchTask
 from modules.youtube.queue import QuickSearchQueue, Queue
+from datetime import datetime
 
 class YouTubeService:
     def __init__(self,qs_queue:Queue, quick_searcher:Searcher, detailed_searcher:Searcher, debug=False, logger=None):
@@ -41,9 +42,14 @@ class YouTubeService:
                 print(e)
                 continue
             
-            if executed_task.cycle != MAX_CYCLES:
+            if self.debug:
+                self.logger.log(f"{task.client_id} : Task {task.term} has completed res-count {task.res_count} cycle-count {task.cycle_count} created at {datetime.now()}.")
+            
+            if executed_task.res_count < RES_COUNT and executed_task.cycle_count <= MAX_CYCLES:
                 #need to add function to check if client still active
                 asyncio.create_task(self.qs_queue.enqueue(executed_task))
+            else:
+                del executed_task
                 
     async def handle_results(self, task):
         await asyncio.to_thread(print, f'Completed {task}')
@@ -63,7 +69,7 @@ if __name__ == "__main__":
     quick_searcher = QuickSearch(channel_parser, video_parser)
     queue = QuickSearchQueue(debug=True, logger=logger)
     detail_searcher = DetailedSearch(video_parser)
-    youtube_service = YouTubeService(qs_queue=queue, quick_searcher=quick_searcher, detailed_searcher=video_parser)
+    youtube_service = YouTubeService(qs_queue=queue, quick_searcher=quick_searcher, detailed_searcher=video_parser, debug=True, logger=logger)
     
     async def aprint(*args, **kwargs):
         await asyncio.to_thread(print, *args, **kwargs)
@@ -76,8 +82,8 @@ if __name__ == "__main__":
     async def queue_task():
         while True:
             id = random.randint(1,100)
-            await asyncio.sleep(1)
-            await youtube_service.search(client_id='Tester', term=f'carti{id}')
+            await asyncio.sleep(.5)
+            await youtube_service.search(client_id=f'Tester{id}', term=f'pewdiepie')
             
     async def main():
         await asyncio.gather(
