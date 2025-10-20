@@ -63,17 +63,21 @@ class DetailedSearch(Searcher):
                 print('[Error]: DetailedSearch was set to debug but a logger was not provided')
                 raise ValueError     
             
-    def search(self, video_id) -> SearchResults:
-        url = f'https://www.youtube.com/watch?v={video_id}'
+    def search(self, task:SearchTask) -> SearchTask:
+        url = f'https://www.youtube.com/watch?v={task.term}'
         with yt_dlp.YoutubeDL(self.options) as ydl:
             info = ydl.extract_info(url, download=False)
             video:VideoModel = self.video_parser.parse(info, full=True)
             
-            results = SearchResults(query=video_id, videos=[video], )
+            videos = task.results.get('videos')
+            videos[video.id] = video
+            
+            task.res_count += 1
+            task.cycle_count += 1
                  
             if self.debug:
-                self.logger.log({results.model_dump_json()})
-            return results
+                self.logger.log({task.model_dump_json()})
+            return task
         
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ class Queue(ABC):
     async def get_task(self):
         pass
 
-class QuickSearchQueue(Queue):
+class SearchQueue(Queue):
     def __init__(self, max_workers = MAX_WORKERS, logger:Logger=None, debug=False):
         self.max_workers = max_workers
         self.logger = logger
